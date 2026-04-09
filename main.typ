@@ -49,6 +49,16 @@
 
 = VL 2
 
+== Symmetrische und Asymmetrische Verfahren
+
+#definition("Schutzziele")[
+ + Vertraulichkeit: Nachricht zwischen A und B kann nicht von O gelesen werden
+ + Integrität: Nachricht zwischen A und B wird nicht verändert bzw. A und B können erkennen, ob Nachrichten verändert wurden
+ + Datenauthentizität: B kann Nachricht von A zweifelsfrei A zuordnen
+ + Instanzauthentizität: B kann die Identität von A zweifelsfrei feststellen
+ + Nichtabstreitbarkeit: B kann Nachricht von A zweifelsfrei auch einer dritten Partei als Nachricht von A nachweisen
+]
+
 #definition("Symmetrische Verfahren")[
   - A und B nutzen den selben Schlüssel
   - Der Schlüssel muss zwischen A und B sicher ausgetauscht werden
@@ -77,4 +87,12 @@
   $5 | 0 = top$
 
   $0 | 5 = bot$
+]
+
+#definition("Kongruenz")[
+  Wir sagen a ist kongruent zu b modulo n (schreiben $a equiv b mod n$), wenn n die Differenz b − a teilt.
+
+  Andere Schreibweisen sind
+    - $(a equiv b) mod n$
+    - $a mod n equiv b mod n$
 ]
