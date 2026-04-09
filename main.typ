@@ -47,7 +47,7 @@
 
 #pagebreak()
 
-= VL 2
+= VL 1 - 2
 
 == Symmetrische und Asymmetrische Verfahren
 
